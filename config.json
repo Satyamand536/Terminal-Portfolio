@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "title": "Satyam Tiwari | Terminal Portfolio",
+    "username": "satyam-tiwari",
+    "hostname": "portfolio",
+    "greeting": "Hi, I am Satyam Tiwari. Welcome to my professional terminal interface.",
+    "role": "visitor"
+  },
+  "roles": {
+    "visitor": ["help", "banner", "about", "projects", "contact", "neofetch", "ask", "clear", "theme"],
+    "recruiter": ["quick", "focus", "resume", "status", "timeline", "contact", "clear"]
+  },
+  "content": {
+    "ascii": [
+      " ____    _  _____ __   __    _    __  __        _____  ___ __        __   _    ____   ___ ",
+      "/ ___|  / \\|_   _\\\\ \\ / /   / \\  |  \\/  |      |_   _||_ _|\\ \\      / /  / \\  |  _ \\ |_ _|",
+      "\\___ \\ / _ \\ | |   \\ V /   / _ \\ | |\\/| |        | |   | |  \\ \\ /\\ / /  / _ \\ | |_) | | | ",
+      " ___) / ___ \\| |    | |   / ___ \\| |  | |        | |   | |   \\ V  V /  / ___ \\|  _ <  | | ",
+      "|____/_/   \\_\\_|    |_|  /_/   \\_\\_|  |_|        |_|  |___|   \\_/\\_/  /_/   \\_\\_| \\_\\|___|",
+      "",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "SYSTEM STATUS: ONLINE | TERMINAL v1.1 [INTELLIGENCE CORE]"
+    ],
+    "social": {
+      "email": "satyamand536@gmail.com",
+      "github": "Satyamand536",
+      "linkedin": "satyam-tiwari-359821292",
+      "resume": "resume.pdf"
+    },
+    "timeline": [
+      {
+        "year": "2023",
+        "role": "Foundations & Programming Mindset",
+        "company": "Personal Development",
+        "description": "Strengthened programming fundamentals with C++ and logical problem solving. Practiced functions, mathematical logic, and early algorithmic thinking. Built a strong base in coding discipline and structured problem-solving approaches."
+      },
+      {
+        "year": "2024",
+        "role": "Frontend Development & Real Project Building",
+        "company": "Full-Stack Transition",
+        "description": "Transitioned deeply into Web Development (HTML, CSS, JS). Built multiple hands-on projects focusing on responsive UI, clean layouts, and modern UX. Explored core JS concepts and developed apps like Weather-based trackers."
+      },
+      {
+        "year": "Late 2024",
+        "role": "React Ecosystem & Advanced Learning",
+        "company": "Frontend Mastering",
+        "description": "Advanced into React.js and component-driven architecture. Developed real-world projects like World Atlas, Pokédex, and interactive Todo apps. Started strengthening DSA concepts using Python alongside development."
+      },
+      {
+        "year": "2025",
+        "role": "Full Stack & AI Integration",
+        "company": "Product Engineering",
+        "description": "Expanded into Node.js, Express, and MongoDB. Built BlogYam with Gemini/OpenRouter AI features and LinkSafe for secure URL management. Worked on Airline Trends to solve data and deployment challenges."
+      },
+      {
+        "year": "Mid 2025",
+        "role": "System Thinking & Engineering Growth",
+        "company": "DevOps & UX",
+        "description": "Mastered deployment workflows (GitHub, Render, Netlify). Improved debugging, production handling, and scalable project structuring. Enhanced UI/UX mindset for designing human-centric and resilient platforms."
+      },
+      {
+        "year": "2026",
+        "role": "Professional Growth & AI Research",
+        "company": "Present",
+        "description": "Completed WatchEcommerce with production-level polish. Currently architecting an AI-based Career & Job Recommendation System. Refining projects with stronger storytelling and production-level design for high-quality tech roles."
+      }
+    ],
+    "identity_summary": "A product-focused developer who blends React expertise, full-stack engineering, AI-driven features, and a strong problem-solving mindset to build meaningful and scalable digital products.",
+    "projects": [
+      {
+        "name": "BlogYam — AI-Powered Blogging Platform",
+        "tagline": "Full-stack community blog with AI-powered reading assistance, in-app meme generation, daily quotes, and an Admin-curated nomination engine.",
+        "problem": "Generic blogs are passive content dumps — no discovery logic, no community accountability, and no creative tools. Writers publish into a void without quality signals or deep content interaction for readers.",
+        "approach": "Integrated an OpenRouter-powered AI assistant (accessing top-tier LLMs) that provides contextual summaries and explains blog content; built an in-app meme generator and daily quotes engine for creative expression; and implemented a weekly nomination system where the Admin curates 'Supreme' and 'Elite' picks.",
+        "tech": "React.js, Vite, Node.js, Express.js, MongoDB, Tailwind CSS, JWT, OpenRouter API",
+        "challenge": "Architecting a secure, role-based ecosystem where the Admin can efficiently review community nominations and promote content while ensuring the AI enhancements (summaries/explanations) stay contextual and helpful.",
+        "outcome": "Shipped a fully moderated publishing ecosystem with role-based dashboards, AI-driven content summarization, Admin-led quality curation ('Supreme/Elite'), interactive commenting, daily quotes, and a meme generator.",
+        "demo": "https://blogyam-blog-app-4.onrender.com/",
+        "github": "https://github.com/Satyamand536/blogyam-blog-app"
+      },
+      {
+        "name": "Preseejan — Precision Watch Ecommerce",
+        "tagline": "Full-stack luxury watch platform with biometric wrist-fit simulation, a weighted AI recommendation engine, and RSA-encrypted authentication.",
+        "problem": "Buying a watch online is nothing like buying a t-shirt — but every e-commerce template treats it the same. Shoppers have no sizing guidance, no lifestyle context, and no trust signals. They buy wrong, or don't buy at all.",
+        "approach": "Engineered three custom systems on top of a MERN backend: a WristFit™ simulator that maps wrist circumference to ideal dial diameter with horology-backed reasoning; a 3-step quiz feeding a weighted scoring API (+30 wrist fit / +40 usage context / +30 style alignment, ≥60 to surface); and occasion-first Mongoose queries curating 'office', 'luxury', 'gifting', and 'sport' collections server-side.",
+        "tech": "React 18, Vite, Framer Motion, Tailwind CSS, Node.js, Express v5, MongoDB Atlas, Mongoose, JWT (httpOnly Cookie), HMAC-SHA256, RSA-OAEP, Web Crypto API, Nodemailer",
+        "challenge": "The hardest problem was the auth pipeline: passwords are RSA-OAEP encrypted in-browser via the Web Crypto API before transmission, decrypted server-side, then re-hashed with HMAC-SHA256 + a random 16-byte salt — while also auto-migrating legacy bcrypt hashes on next login without breaking existing accounts.",
+        "outcome": "Shipped a production-grade luxury commerce platform: WristFit simulator, recommendation engine with graceful client-side fallback, occasion collections, side-by-side watch comparison, newsletter via Nodemailer, and full dark/light mode — all under a zero-plain-text-password auth layer.",
+        "demo": "https://preseejan.onrender.com/",
+        "github": "https://github.com/Satyamand536/WatchEcommerce"
+      },
+      {
+        "name": "LinkSafe — Security-First URL Shortener",
+        "tagline": "Production-grade MERN SaaS that transforms links into branded, trackable, security-audited short URLs.",
+        "problem": "Most URL shorteners are dumb redirectors — they shorten and forget, expose raw destinations immediately, and store passwords in plain text with zero traffic insight.",
+        "approach": "Built a full SaaS intelligence layer: Safe Preview Page shows destination domain + HTTPS status before navigating, dual-mode analytics dashboard (global + per-link), HttpOnly JWT cookies, HMAC-SHA256 hashing, rate limiting, and custom branded aliases.",
+        "tech": "React 18, Vite, Node.js, Express, MongoDB, Mongoose, Recharts, JWT, Helmet, nanoid, qrcode",
+        "challenge": "Designing a security-first system where every redirect passes through a preview interceptor, tokens never touch JavaScript (HttpOnly cookies), and the full audit trail is immutably stored in the MongoDB schema.",
+        "outcome": "Shipped a production-grade SaaS with QR code generation, per-link analytics, custom aliases, and a Security Center auditing HTTPS compliance across all user links.",
+        "demo": "https://url-shortner-9mzj.onrender.com",
+        "github": "https://github.com/Satyamand536/URL-Shortner"
+      },
+      {
+        "name": "Pokédex — Live Pokémon Explorer",
+        "tagline": "Fast, responsive browser powered by PokéAPI and concurrent fetch logic.",
+        "problem": "PokéAPI v2 doesn't return stats in the list endpoint. Fetching 124 Pokémon with metadata normally requires 124 sequential requests, causing an 'API waterfall' that takes 5+ seconds to load.",
+        "approach": "Implemented a concurrent fetch pattern using `Promise.all()`. This maps 124 individual URL promises and resolves them in one parallel execution, slashing load times by 95% (~200ms). Used SVG 'Dream World' artwork for crisp visuals at any scale.",
+        "tech": "React 19, Vite 6, PokéAPI v2, CSS Grid (Vanilla)",
+        "challenge": "Solving the N+1 API request problem on the client-side without a backend proxy, ensuring the UI remains interactive while processing over 100 parallel HTTP responses and mapping high-resolution SVG sprites.",
+        "outcome": "Achieved a near-instant Pokédex with real-time, zero-latency search over in-memory data, high-quality SVG rendering, and a fully responsive grid matching 124 unique data entries.",
+        "demo": "https://poketeir.netlify.app/",
+        "github": "https://github.com/Satyamand536/Pokemon"
+      }
+    ],
+    "neofetch": {
+      "OS": "Windows 11",
+      "Kernel": "Webkit / Next.js",
+      "Uptime": "Live since 2024",
+      "Packages": "Next.js, Tailwind, TypeScript",
+      "Shell": "Satyam-ZSH",
+      "Terminal": "Satyam-Portfolio-Terminal",
+      "CPU": "Aesthetic Intel Core i9",
+      "Memory": "128GB (Personal Potential)"
+    }
+  },
+  "theme": {
+    "current": "matrix",
+    "presets": {
+      "matrix": {
+        "primary": "#00ff88",
+        "accent": "#00ccff",
+        "text": "#00ff88",
+        "background": "#0f0f0f"
+      },
+      "bloomberg": {
+        "primary": "#ff3b30",
+        "accent": "#ffffff",
+        "text": "#ff3b30",
+        "background": "#0a0a0a"
+      },
+      "amber": {
+        "primary": "#ffb800",
+        "accent": "#ffffff",
+        "text": "#ffb800",
+        "background": "#0f0e0a"
+      }
+    }
+  }
+}

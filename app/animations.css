@@ -1,0 +1,78 @@
+/* Boot Screen Animation */
+.boot-screen {
+  padding: 40px 20px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--p-primary);
+}
+
+.boot-message {
+  animation: bootFadeIn 0.3s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes bootFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Matrix Rain Overlay */
+.matrix-rain-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.matrix-rain {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.matrix-column {
+  position: absolute;
+  top: -100%;
+  width: 2%;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: #00ff88;
+  text-shadow: 0 0 5px #00ff88;
+  animation: matrixFall 3s linear infinite;
+}
+
+.matrix-column span {
+  display: block;
+  opacity: 0;
+  animation: matrixFadeIn 0.5s ease-in forwards;
+}
+
+@keyframes matrixFall {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes matrixFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
