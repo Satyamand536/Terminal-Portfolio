@@ -6,6 +6,11 @@ This isn't just a portfolio; it's a "Terminal as a UI" experiment. Instead of na
 
 ---
 
+## 🚀 Live Demo
+
+> **[LinkSafe →](https://satolio.netlify.app/)**
+
+---
 ## 🧠 Engineering Highlights
 
 ### 1. Adaptive AI Assistant (`ask`)
