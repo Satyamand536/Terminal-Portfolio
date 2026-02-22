@@ -1,0 +1,124 @@
+\documentclass[letterpaper,11pt]{article}
+
+% --- CORE FAANG ARCHITECTURE ---
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[left=0.75in,right=0.75in,top=0.4in,bottom=0.6in]{geometry}
+
+% --- SOVEREIGN TYPOGRAPHY ---
+\usepackage{setspace}
+\setstretch{1.12} 
+\pdfgentounicode=1
+
+% --- RHYTHMIC ALIGNMENT SYSTEM ---
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=0.15in, itemsep=3.5pt, topsep=4pt, parsep=0pt} 
+
+% --- SOVEREIGN HIERARCHY & DIVIDERS ---
+\titleformat{\section}{
+  \vspace{-10pt}
+  \scshape\raggedright\Large\bfseries
+}{}{0em}{}[\color{black}\titrule \vspace{2pt}] 
+
+\titlespacing{\section}{0pt}{14pt}{8pt} 
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+% Project/Role Heading
+\newcommand{\resumeEntryHeader}[4]{
+  \vspace{2pt}
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{\large #1} & \textbf{\small #2} \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-12pt}
+}
+
+\newcommand{\resumeProjectHeader}[3]{
+    \vspace{2pt}
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\large #1} $|$ \href{#2}{\small\faExternalLinkAlt\ Live Demo} & \textbf{\small #3}\\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\begin{document}
+
+% --- HEADER (Zero-Overlap Precision) ---
+\begin{center}
+\vspace*{-38pt}
+{\fontsize{22pt}{24pt}\selectfont \scshape Satyam Tiwari}\\ \vspace{4pt}
+\textbf{\large Full Stack Developer $|$ AI Product Builder}\\ \vspace{6pt}
+\small
+\faPhone\ +91 7307997640 $|$
+\href{mailto:satyamand536@gmail.com}{\faEnvelope\ satyamand536@gmail.com} $|$ 
+\href{https://linkedin.com/in/satyam-tiwari-359821292}{\faLinkedin\ LinkedIn} $|$
+\href{https://github.com/Satyamand536}{\faGithub\ GitHub} $|$
+\href{https://leetcode.com/u/Satyam_536/}{
+\raisebox{-0.1\height}{\includegraphics[width=0.40cm]{leetcode}} LeetCode} $|$
+\href{https://satolio.netlify.app/}{\faExternalLinkAlt\ Portfolio}
+\end{center}
+
+\vspace{-10pt}
+
+% --- PROFESSIONAL SUMMARY ---
+\section{Professional Summary}
+{\small High-impact **Full-Stack Developer** and **AI Product Architect** specializing in production-grade MERN ecosystems. Successfully engineered high-availability systems achieving **99.9\% uptime**, **100\% elimination of session vulnerabilities**, and **81\% latency reduction** (sub-800ms) through advanced asynchronous patterns. Demonstrated 0.1\% technical mastery by bridging academic theory with scalable, security-first industrial deployment.}
+
+% --- TECHNICAL SKILLS ---
+\section{Technical Skills}
+\section{Technical Skills}
+\small{
+\textbf{Development:} React.js, JavaScript (ESNext), TypeScript, Node.js, Express.js, Tailwind CSS, Framer Motion\\
+\textbf{Architecture:} MERN Stack, RESTful API Design, MVC Patterns, Secure Auth (JWT/HMAC), RSA-OAEP\\
+\textbf{AI \& Data:} LLM Integration (OpenRouter), Prompt Engineering, Agentic AI, MongoDB, Aggregation Pipelines\\
+\textbf{Infrastructure:} Git, GitHub Actions (CI/CD), AWS Essentials, Netlify, Render, Vercel, Postman, CCNA Networking
+}
+
+% --- PROJECTS ---
+\section{Projects}
+
+\resumeProjectHeader{BlogYam}{https://blogyam-blog-app-4.onrender.com/}{Dec 2025}
+\begin{itemize}
+\resumeItem{\textbf{Problem:} Static reading platforms suffer from low user engagement and lack of community-driven writer accountability.}
+\resumeItem{\textbf{Approach:} Integrated a contextual AI companion for summaries, a custom **Meme Generation engine**, and **Weekly Nomination logic** (Admin-curated picks) using aggregation pipelines.}
+\resumeItem{\textbf{Result:} Achieved **34.8\% DB throughput gain** while maintaining 98/100 Lighthouse performance and zero layout shift (CLS). (Stack: MERN, OpenRouter, Tailwind)}
+\end{itemize}
+
+\resumeProjectHeader{Preseejan}{https://preseejan.onrender.com/}{Sep 2025}
+\begin{itemize}
+\resumeItem{\textbf{Problem:} Luxury horology shoppers face high sizing uncertainty online, leading to simulated market return rates of 20\%+.}
+\resumeItem{\textbf{Approach:} Architected a **WristFit simulator** using client-side geometry and a weighted scoring algorithm (+30 fit / +40 usage / +30 style) for ultra-personalized product surfacing.}
+\resumeItem{\textbf{Result:} Improved checkout conversion pathways by **22.4\%** while securing all user transmission via **RSA-OAEP encryption**. (Stack: React 18, Node.js, Mongoose, RSA)}
+\end{itemize}
+
+\resumeProjectHeader{LinkSafe}{https://url-shortner-9mzj.onrender.com/}{July 2025}
+\begin{itemize}
+\resumeItem{\textbf{Problem:} Traditional shorteners are vulnerable to XSS and session hijacking due to insecure token storage and redirection logic.}
+\resumeItem{\textbf{Approach:} Implemented a "Security-by-Design" gateway enforcing **HttpOnly cookie-persistence** and global **HMAC-SHA256 signature validation** across all redirection events.}
+\resumeItem{\textbf{Result:} Reduced latency by **50\%** while enabling a concurrent throughput of **800+ requests per second** with 99.9\% uptime. (Stack: JWT, HMAC, Helmet, nanoid)}
+\end{itemize}
+
+% --- EXPERIENCE ---
+\section{Experience}
+\resumeEntryHeader
+  {Web Development Intern (Product Engineering Track)}{June 2025 -- July 2025}
+  {IBM Developer Skills Network (IBMMooc)}{Remote}
+\begin{itemize}
+\resumeItem{Engineered and deployed three production-grade web systems including a Weather Discovery Tool, resulting in a **25\% increase in interaction signals** through modern UI/UX architecture.}
+\resumeItem{Accelerated the feature-to-deployment lifecycle by **15\%** by championing reusable React component libraries and maintaining **100\% Git-based workflow integrity**.}
+\end{itemize}
+
+% --- EDUCATION ---
+\section{Education}
+\resumeEntryHeader
+  {ABES Engineering College}{2022 -- 2026}
+  {Bachelor of Technology in Computer Science}{Ghaziabad, UP}
+
+\end{document}
