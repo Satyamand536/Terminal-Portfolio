@@ -36,33 +36,39 @@
       },
       {
         "year": "2024",
-        "role": "Frontend Development & Real Project Building",
-        "company": "Full-Stack Transition",
-        "description": "Transitioned deeply into Web Development (HTML, CSS, JS). Built multiple hands-on projects focusing on responsive UI, clean layouts, and modern UX. Explored core JS concepts and developed apps like Weather-based trackers."
+        "role": "Foundational JavaScript & Web Logic",
+        "company": "Self-Learning & Exploration",
+        "description": "Mastered core JavaScript and DOM manipulation. Engineered foundational tools including a Random Joke Generator, Calculator, Counter, and Dynamic Time systems. Developed initial versions of Weather and Todo applications using HTML,CSS and Javascript."
       },
       {
-        "year": "Late 2024",
-        "role": "React Ecosystem & Advanced Learning",
-        "company": "Frontend Mastering",
-        "description": "Advanced into React.js and component-driven architecture. Developed real-world projects like World Atlas, Pokédex, and interactive Todo apps. Started strengthening DSA concepts using Python alongside development."
+        "year": "Early 2025",
+        "role": "React Ecosystem & Component Architecture",
+        "company": "Frontend Engineering",
+        "description": "Transitioned to React.js and advanced component-driven design. Developed high-impact tools like the World Atlas explorer, Pokédex (Concurrent Fetching), and Interactive Task Management systems. Strengthened DSA foundations using Python to optimize logic patterns."
       },
       {
-        "year": "2025",
-        "role": "Full Stack & AI Integration",
+        "year": "July 2025",
+        "role": "Security Architecture & Backend Mastery",
         "company": "Product Engineering",
-        "description": "Expanded into Node.js, Express, and MongoDB. Built BlogYam with Gemini/OpenRouter AI features and LinkSafe for secure URL management. Worked on Airline Trends to solve data and deployment challenges."
+        "description": "Architected LinkSafe, a security-centric URL management platform. Mastered Node.js, Express, and MongoDB, implementing military-grade security like HMAC-SHA256 and HttpOnly cookie-persistence."
       },
       {
-        "year": "Mid 2025",
-        "role": "System Thinking & Engineering Growth",
-        "company": "DevOps & UX",
-        "description": "Mastered deployment workflows (GitHub, Render, Netlify). Improved debugging, production handling, and scalable project structuring. Enhanced UI/UX mindset for designing human-centric and resilient platforms."
+        "year": "Sep 2025",
+        "role": "E-commerce & UX Performance",
+        "company": "Frontend Systems",
+        "description": "Engineered Preseejan (ChronoElite), a high-fidelity watch e-commerce experience. Focused on multi-dimensional filtering state machines and the 'Terminal as UI' design philosophy for premium digital products."
       },
       {
-        "year": "2026",
+        "year": "Dec 2025",
+        "role": "AI Orchestration & Knowledge Systems",
+        "company": "Full Stack & AI",
+        "description": "Deployed BlogYam, a cognitive blogging platform integrated with OpenRouter/Gemini AI assistants. Focused on LLM-driven reading assistance, summarization, and building community-driven creative tools."
+      },
+      {
+        "year": "Early 2026",
         "role": "Professional Growth & AI Research",
         "company": "Present",
-        "description": "Completed WatchEcommerce with production-level polish. Currently architecting an AI-based Career & Job Recommendation System. Refining projects with stronger storytelling and production-level design for high-quality tech roles."
+        "description": "Currently architecting an AI-based Career & Job Recommendation System. Refining projects with 0.1% precision in storytelling and production-level system design for top-tier tech roles."
       }
     ],
     "identity_summary": "A product-focused developer who blends React expertise, full-stack engineering, AI-driven features, and a strong problem-solving mindset to build meaningful and scalable digital products.",
